@@ -1,6 +1,9 @@
 cwlVersion: v1.0
 class: CommandLineTool
 doc: (de)compress files with gzip
+hints:
+    DockerRequirement:
+        dockerPull: debian:latest
 baseCommand: [gzip, -c]
 
 requirements:

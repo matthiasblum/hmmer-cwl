@@ -1,6 +1,9 @@
 cwlVersion: v1.0
 class: CommandLineTool
 doc: concat multiple files using GNU cat
+hints:
+    DockerRequirement:
+        dockerPull: debian:latest
 baseCommand: cat
 
 stdout: $(inputs.output)

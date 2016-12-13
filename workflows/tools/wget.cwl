@@ -1,6 +1,9 @@
 cwlVersion: v1.0
 class: CommandLineTool
-doc: down
+doc: download files with wget
+hints:
+    DockerRequirement:
+        dockerPull: debian:latest
 baseCommand: [wget, --quiet]
 
 requirements:
