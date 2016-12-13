@@ -3,7 +3,7 @@ class: CommandLineTool
 doc: concat multiple files using GNU cat
 hints:
     DockerRequirement:
-        dockerPull: debian:latest
+        dockerPull: alpine
 baseCommand: cat
 
 stdout: $(inputs.output)

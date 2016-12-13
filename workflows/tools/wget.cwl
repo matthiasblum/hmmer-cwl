@@ -3,8 +3,8 @@ class: CommandLineTool
 doc: download files with wget
 hints:
     DockerRequirement:
-        dockerPull: debian:latest
-baseCommand: [wget, --quiet]
+        dockerPull: mwendler/wget
+baseCommand: [--quiet, --no-check-certificate]
 
 requirements:
   - class: InlineJavascriptRequirement

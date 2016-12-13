@@ -3,7 +3,7 @@ class: CommandLineTool
 doc: (de)compress files with gzip
 hints:
     DockerRequirement:
-        dockerPull: debian:latest
+        dockerPull: alpine
 baseCommand: [gzip, -c]
 
 requirements:
