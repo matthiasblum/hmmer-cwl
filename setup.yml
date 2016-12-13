@@ -1,0 +1,5 @@
+sto_urls:
+    - https://github.com/EddyRivasLab/hmmer/raw/master/tutorial/globins4.sto
+    - https://github.com/EddyRivasLab/hmmer/raw/master/tutorial/fn3.sto
+    - https://github.com/EddyRivasLab/hmmer/raw/master/tutorial/Pkinase.sto
+uni_url: ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz

@@ -1,0 +1,10 @@
+build_msa:
+    class: File
+    path: globins4.sto
+build_hmm: globins4.hmm
+build_cpu: 1
+build_hand: false
+search_db:
+    class: File
+    path: uniprot_sprot.fasta
+search_out: globins4.out

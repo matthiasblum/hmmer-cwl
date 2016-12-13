@@ -1,0 +1,20 @@
+build_msa:
+    -   class: File
+        path: fn3.sto
+    -   class: File
+        path: globins4.sto
+    -   class: File
+        path: Pkinase.sto
+build_hmm:
+    - fn3.hmm
+    - globins4.hmm
+    - Pkinase.hmm
+build_cpu: 1
+build_hand: false
+merge_hmm: minifam.hmm
+scan_seq: uniprot_sprot.fasta
+scan_seq:
+    class: File
+    path: uniprot_sprot.fasta
+scan_out: minifam.out
+scan_cpu: 4
